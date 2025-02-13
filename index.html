@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lading Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    
+    <input id="close-menu" type="checkbox" class="close-menu" aria-label="Fechar o menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 class="menu-logo" onclick="getElementById('close-menu').checked = false">
+          <a href="#intro">WEB.DEV</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#grid-one">Processo</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#grid-two">Trabalhos</a></li>
+            <li><a href="#preco">Preços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Eu sou <span class="felipe-duan">Felipe Duan</span></h2>
+          <p>
+            Desenvolvo páginas web modernas, funcionais e responsivas,
+            utilizando as melhores práticas de HTML, CSS e JavaScript. Meu
+            objetivo é criar experiências que não apenas impressionem, mas
+            também encantem os usuários, criando uma experiência incrível e
+            garantindo desempenho e fluidez em cada detalhe.
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img
+            src="assets/img/intro-img.svg"
+            alt="Logo de HTML, CSS e JavaScript"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="white-bg section">
+      <div class="main-content sobre-content">
+        <h2>Sobre Web Development</h2>
+        <p>
+          O HTML (HyperText Markup Language) é a base de qualquer página web.
+          Ele é responsável por estruturar o conteúdo, organizando elementos
+          como textos, imagens, links e muito mais. Pense no HTML como o
+          esqueleto de uma página: ele fornece a estrutura necessária para que
+          tudo funcione de maneira coesa. Sem o HTML, a web não teria forma ou
+          propósito.
+        </p>
+        <p>
+          Já o CSS (Cascading Style Sheets) é o que transforma a estrutura
+          simples do HTML em algo visualmente atraente. Com o CSS, é possível
+          definir cores, fontes, tamanhos, espaçamentos e até mesmo criar
+          animações e transições. Ele é como o designer da web, garantindo que
+          as páginas sejam bonitas, organizadas e responsivas, adaptando-se a
+          diferentes dispositivos e tamanhos de tela.
+        </p>
+        <p>
+          Por fim, o JavaScript é o coração da interatividade nas páginas web.
+          Com ele, é possível criar elementos dinâmicos como menus, sliders,
+          formulários interativos e muito mais. Ele permite que as páginas
+          deixem de ser estáticas e se tornem experiências envolventes e
+          funcionais, respondendo às ações do usuário em tempo real.
+        </p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Processo de Trabalho</h2>
+        <p class="grid-description">
+          Entenda as etapas que sigo para transformar seu sonho em projetos
+          completos e funcionais.
+        </p>
+
+        <div class="work-grid">
+          <article>
+            <h3>Planejar</h3>
+            <p>
+              Compreender profundamente as necessidades do cliente, analisar os
+              objetivos do projeto e definir metas claras e alcançáveis. Criar
+              um plano estratégico detalhado que guie todo o processo de
+              desenvolvimento, garantindo alinhamento com as expectativas e
+              resultados desejados.
+            </p>
+          </article>
+
+          <article>
+            <h3>Desenvolver</h3>
+            <p>
+              Transformar o planejamento em realidade, construindo soluções
+              modernas e funcionais com atenção aos detalhes. Utilizar as
+              melhores práticas de desenvolvimento para criar interfaces
+              responsivas, dinâmicas e otimizadas, sempre focando na experiência
+              do usuário.
+            </p>
+          </article>
+
+          <article>
+            <h3>Entregar</h3>
+            <p>
+              Garantir a entrega de um produto final de alta qualidade,
+              cuidadosamente testado e validado para atender aos requisitos.
+              Realizar ajustes finais e fornecer suporte para garantir que o
+              projeto esteja pronto para ser lançado e alcançar os resultados
+              esperados.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+          <h2 class="grid-main-heading">Gallery</h2>
+          <p class="grid-description">
+            Uma seção de galeria para demonstrar o uso de grids e a manipulação de
+            imagens.
+          </p>
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="/assets/img/ondas.jpg"
+              alt="Ondas do mar"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="/assets/img/lago.jpg"
+              alt="Imagem de um lago com águas cristalinas"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="/assets/img/lago-2.jpg"
+              alt="Imagem do mar com árvores e pôr do sol"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="/assets/img/neblina.jpg"
+              alt="Imagem de uma colina com neblinas"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="/assets/img/agua-cidade.jpg"
+              alt="Cidade com água no centro"
+            />
+          </div>
+
+          <div class="gallery-img">
+            <img
+              src="assets/img/Skate-img.jpg"
+              alt="Garoto andando de skate"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Trabalhos Recentes</h2>
+        <p class="grid-description">
+          Confira como transformo desafios em soluções práticas e inovadoras
+          através de tecnologia e criatividade.
+        </p>
+
+        <div class="work-grid">
+          <article>
+            <h3>Nexus</h3>
+            <p>
+              Na Nexus Tech, desenvolvo soluções acessíveis e inclusivas, como
+              um assistente acadêmico voltado para o ensino de matemática a
+              crianças com deficiência visual. Busco unir tecnologia assistiva e
+              design centrado no usuário para promover autonomia e aprendizado.
+            </p>
+          </article>
+
+          <article>
+            <h3>AIgro</h3>
+            <p>
+              No IAGRO, aplico inteligência artificial para otimizar a gestão
+              agropecuária. Trabalho no desenvolvimento de ferramentas
+              preditivas que ajudam produtores a aumentar a eficiência, reduzir
+              custos e promover práticas mais sustentáveis.
+            </p>
+          </article>
+
+          <article>
+            <h3>Ghast</h3>
+            <p>
+              Desenvolvi um sistema de gestão de consultorias com
+              funcionalidades robustas, chamado de Ghast Consultorias. Utilizei
+              Java com Spring Boot e PostgreSQL no backend, e Next.js no
+              frontend, sempre priorizando boas práticas de desenvolvimento e
+              soluções eficientes.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="preco" class="white-bg section">
+      <div class="main-content sobre-content">
+        <h2>Sobre Web Development</h2>
+        <p>
+          O HTML (HyperText Markup Language) é a base de qualquer página web.
+          Ele é responsável por estruturar o conteúdo, organizando elementos
+          como textos, imagens, links e muito mais. Pense no HTML como o
+          esqueleto de uma página: ele fornece a estrutura necessária para que
+          tudo funcione de maneira coesa. Sem o HTML, a web não teria forma ou
+          propósito.
+        </p>
+        <p>
+          O HTML (HyperText Markup Language) é a base de qualquer página web.
+          Ele é responsável por estruturar o conteúdo, organizando elementos
+          como textos, imagens, links e muito mais. Pense no HTML como o
+          esqueleto de uma página: ele fornece a estrutura necessária para que
+          tudo funcione de maneira coesa. Sem o HTML, a web não teria forma ou
+          propósito.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing Table
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="3">Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2 class="felipe-duan">Contato</h2>
+          <p>
+            Sou Felipe Duan, estudante de Engenharia de Software no iCEV, apaixonado por tecnologia e inovação. Sempre busco criar soluções que unam funcionalidade e impacto, transformando ideias em projetos reais. Além de programar, gosto de explorar novos conhecimentos em áreas como matemática, física e ciências em geral. Entre em contato comigo!
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img
+            src="assets/img/contact.svg"
+            alt="Logo de HTML, CSS e JavaScript"
+          />
+        </div>
+
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Formulário</legend>
+
+            <div class="form-group">
+              <label for="first-name">Primeiro Nome</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Último Nome</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Seu último nome">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Seu email">
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Mensagem</label>
+              <textarea name="message" id="message" placeholder="Sua mensagem"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Enviar</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p><a rel="nofollow" target="_blank" href="https://www.fduan.me/">Feito com <span class="heart">❤</span> por Felipe Duan</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+  </body>
+</html>
